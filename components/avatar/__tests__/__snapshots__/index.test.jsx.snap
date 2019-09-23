@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders Avatars correctly when set src, icon and string 1`] = `
+<div>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--icon za-avatar--image za-avatar--string"
+  >
+    <img
+      alt=""
+      src="http://img95.699pic.com/element/40044/5588.png_860.png"
+    />
+  </span>
+</div>
+`;
+
+exports[`Avatar renders Avatars of different shape correctly 1`] = `
+<div>
+  <Avatar
+    alt=""
+    icon=""
+    prefixCls="za-avatar"
+    shape="circle"
+    size="circle"
+    src=""
+  />
+  <Avatar
+    alt=""
+    icon=""
+    prefixCls="za-avatar"
+    shape="circle"
+    size="square"
+    src=""
+  />
+</div>
+`;
+
+exports[`Avatar renders Avatars of different size correctly 1`] = `
+<div>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--icon"
+    style="width:80px;height:80px;line-height:80px;font-size:40px"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--xl za-avatar--circle za-avatar--icon"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--lg za-avatar--circle za-avatar--icon"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--icon"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--sm za-avatar--circle za-avatar--icon"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--xs za-avatar--circle za-avatar--icon"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+</div>
+`;
+
+exports[`Avatar renders Avatars of different type correctly 1`] = `
+<div>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--icon"
+  >
+    <i
+      class="za-icon za-icon-user theme-default"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--string"
+  >
+    <span
+      style="position:absolute;transform:scale(1);left:calc(50% - 4.5px )"
+    >
+      U
+    </span>
+  </span>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--string"
+  >
+    <span
+      style="position:absolute;transform:scale(0.7);left:calc(50% - 18px )"
+    >
+      USER
+    </span>
+  </span>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--image"
+  >
+    <img
+      alt="my avatar"
+      src="http://img95.699pic.com/element/40044/5588.png_860.png"
+    />
+  </span>
+  <span
+    class="za-avatar za-avatar--circle za-avatar--string"
+    style="color:#2db7f5;background-color:rgb(249, 232, 8)"
+  >
+    <span
+      style="position:absolute;transform:scale(1);left:calc(50% - 4.5px )"
+    >
+      U
+    </span>
+  </span>
+</div>
+`;

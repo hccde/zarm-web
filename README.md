@@ -1,49 +1,85 @@
-# dragon-ui
-  基于ReactJS的UI库
-  
-## 安装
-  npm install dragon-ui
-  
-## 使用
-  import { Modal, Alert } from dragon-ui;
+<p align="center">
+  <img width="200" src="https://zarm.design/images/logo.ce68565d.svg">
+</p>
 
-## 已完成组件
-- Alert 警告框
-- Breadcrumb 面包屑
-- Button 按钮
-- Calendar 日历
-- Checkbox 多选
-- Confirm 确认框
-- DatePicker 日期选择器
-- Dropdown 下拉组件
-- Form 表单
-- Icon 字体图标
-- Input 输入框/文本域
-- Loading 加载框
-- Mask 遮罩层
-- Menu 菜单组
-- Message 全局提示
-- Modal 模态框
-- Pagination 分页
-- Panel 面版
-- Progress 进度条
-- Radio 单选
-- Select 下拉菜单
-- Slider 滑动输入条
-- Step 步骤条
-- Swipe 图片轮播
-- Switch 开关
-- Tab 内容切换
-- Table 表格
-- Tag 标签
-- Tooltip 文字提示
-- Upload 上传
+<h1 align="center">Zarm-Web</h1>
 
-## 待开发组件
-- TimePicker 时间选择器
-- Timeline 时间轴
-- Popover 气泡弹窗
-- Table 加强版表格
-- Input 加强版输入框/文本域
-- Select 加强版下拉菜单
+<div align="center">
+  众安科技桌面端UI组件库，基于React。
+</div>
 
+## Version 版本
+
+- 历史版本：[![npm package](https://img.shields.io/npm/v/dragon-ui.svg)](https://www.npmjs.org/package/dragon-ui)
+- 开发版：暂未发布
+
+
+## Install 安装
+
+
+使用npm安装：
+```bash
+npm install zarm-web --save
+```
+
+或者通过cdn引入umd模块：
+```html
+<link rel="stylesheet" href="https://unpkg.com/zarm-web@latest/dist/zarm-web.min.css">
+<script type="text/javascript" src="https://unpkg.com/zarm-web@latest/dist/zarm-web.min.js"></script>
+```
+
+## Usage 使用
+
+### 全组件引入
+
+```js
+import { Button, Cell } from 'zarm-web';
+import 'zarm-web/dist/zarm-web.min.css';
+```
+
+### 按需加载
+
+- 方法一（推荐）
+
+> 使用 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) 自动加载Sass文件
+
+```js
+  // .babelrc or babel-loader option
+  {
+    "plugins": [
+      ['import', {
+        libraryName: 'zarm-web',
+        style: true,
+      }],
+    ]
+  }
+```
+
+```js
+import { Button, Cell } from 'zarm-web';
+```
+
+- 方法二：
+
+```js
+import Button from 'zarm-web/lib/button';
+import 'zarm-web/lib/button/style';
+```
+
+### 定制主题
+
+通过修改css变量定义达到定制主题的效果
+
+```js
+document.documentElement.style.setProperty('--theme-primary', '#108ee9');
+```
+
+变量名可参考 [variable.scss](https://github.com/JeromeLin/zarm-web/blob/dev-zarm-web/components/style/themes/variable.scss)
+
+## Changelog 更新日志
+
+[CHANGELOG.md](https://github.com/JeromeLin/zarm-web/blob/dev-zarm-web/CHANGELOG.md)
+
+## License
+
+MIT

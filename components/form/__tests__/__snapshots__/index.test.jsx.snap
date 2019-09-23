@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders inline Form with label correctly 1`] = `
+<form
+  class="za-form za-form--inline za-form--label-right"
+>
+  <div
+    class="za-form-item col-sm-4"
+  >
+    <label
+      class="za-form-item__label"
+    >
+      类型
+    </label>
+    <div
+      class="za-form-item__control"
+    >
+      <div
+        class="ui-input-box shape-radius"
+      >
+        <input
+          class="ui-input"
+          placeholder="请输入..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="za-form-item col-sm-4"
+  >
+    <label
+      class="za-form-item__label"
+    >
+      来源
+    </label>
+    <div
+      class="za-form-item__control"
+    >
+      <div
+        class="ui-input-box shape-radius"
+      >
+        <input
+          class="ui-input"
+          placeholder="请输入..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="za-form-item col-sm-4"
+  >
+    <label
+      class="za-form-item__label"
+    />
+    <div
+      class="za-form-item__control"
+    >
+      <button
+        class="zw-button zw-button--success zw-button--radius"
+        type="button"
+      >
+        查询
+      </button>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Form renders inline Form with required fields and help correctly 1`] = `
+<form
+  class="za-form za-form--inline za-form--label-right"
+>
+  <div
+    class="za-form-item col-sm-4"
+  >
+    <label
+      class="za-form-item__label"
+    >
+      类型
+    </label>
+    <div
+      class="za-form-item__control"
+    >
+      <div
+        class="ui-input-box shape-radius"
+      >
+        <input
+          class="ui-input"
+          placeholder="请输入..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="za-form-item col-sm-4"
+  >
+    <label
+      class="za-form-item__label"
+    >
+      <span
+        class="za-form-item--required"
+      >
+        <i
+          class="za-icon za-icon-required theme-default"
+        />
+      </span>
+      来源
+    </label>
+    <div
+      class="za-form-item__control"
+    >
+      <div
+        class="ui-input-box shape-radius"
+      >
+        <input
+          class="ui-input"
+          placeholder="请输入..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="za-form-item col-sm-4"
+  >
+    <label
+      class="za-form-item__label"
+    />
+    <div
+      class="za-form-item__control"
+    >
+      <button
+        class="zw-button zw-button--success zw-button--radius"
+        type="button"
+      >
+        查询
+      </button>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Form renders normal Form correctly 1`] = `
+<form
+  class="za-form za-form--horizontal za-form--label-right"
+>
+  <div
+    class="za-form-item"
+  >
+    <label
+      class="za-form-item__label"
+    >
+      账号
+    </label>
+    <div
+      class="za-form-item__control"
+    >
+      <div
+        class="ui-input-box shape-radius"
+      >
+        <input
+          class="ui-input"
+          placeholder="请输入..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="za-form-item"
+  >
+    <label
+      class="za-form-item__label"
+    >
+      密码
+    </label>
+    <div
+      class="za-form-item__control"
+    >
+      <div
+        class="ui-input-box shape-radius"
+      >
+        <input
+          class="ui-input"
+          placeholder="请输入..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="za-form-item"
+  >
+    <div
+      class="za-form-item__control"
+    >
+      <button
+        class="zw-button zw-button--success zw-button--radius"
+        type="button"
+      >
+        登录
+      </button>
+    </div>
+  </div>
+</form>
+`;

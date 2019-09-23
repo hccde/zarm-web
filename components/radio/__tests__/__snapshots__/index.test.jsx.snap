@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio renders Radio Group correctly 1`] = `
+<div
+  class="za-radio-group"
+>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio is-checked"
+    >
+      <input
+        checked=""
+        class="za-radio__input"
+        type="radio"
+        value="a"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      A
+    </span>
+  </label>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio"
+    >
+      <input
+        class="za-radio__input"
+        type="radio"
+        value="b"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      B
+    </span>
+  </label>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio"
+    >
+      <input
+        class="za-radio__input"
+        type="radio"
+        value="c"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      C
+    </span>
+  </label>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio"
+    >
+      <input
+        class="za-radio__input"
+        type="radio"
+        value="d"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      D
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Radio renders checked Radio correctly 1`] = `
+<div>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio is-checked"
+    >
+      <input
+        checked=""
+        class="za-radio__input"
+        type="radio"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      选择
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Radio renders disabled Radio correctly 1`] = `
+<div>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio is-disabled"
+    >
+      <input
+        class="za-radio__input"
+        disabled=""
+        type="radio"
+        value="a"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      选择
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Radio renders normal Radio correctly 1`] = `
+<div>
+  <label
+    class="za-radio__wrapper"
+  >
+    <span
+      class="za-radio"
+    >
+      <input
+        class="za-radio__input"
+        type="radio"
+        value="a"
+      />
+      <span
+        class="za-radio__inner"
+      />
+      选择
+    </span>
+  </label>
+</div>
+`;

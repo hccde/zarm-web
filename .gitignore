@@ -1,9 +1,20 @@
+_book
 .DS_Store
+.idea
+.vscode
+.history
+.prettierrc.yaml
 *.log
+*.iml
 node_modules
-dist
-lib
+package-lock.json
+
+# bundle files
 assets
 coverage
-_book
-.idea
+dist
+es
+lib
+build
+types
+bundle
